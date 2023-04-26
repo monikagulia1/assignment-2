@@ -1,0 +1,16 @@
+l=[]
+n=int(input(print("enter number of strings in list")))
+for i in range(0,n):
+    a=str(input(print("enter strings")))
+    l.append(a)
+
+for j in range(0,n):
+    c=len(l[0])
+    k=l[0]
+    if len(l[j])<=c:
+        k=l[0]
+        l[0]=l[j]
+        l[j]=k
+        
+    
+print(l)   
