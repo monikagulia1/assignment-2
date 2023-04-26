@@ -1,0 +1,4 @@
+r=float(input(print("PLEASE ENTER RADIUS OF CIRCLE")))
+a=3.14159265359*pow(r,2)
+p=3.14159265359*2*r
+print(f"AREA OF CIRCLE WHOSE RADIUS IS{r} ,IS {a} AND PERIMETER IS {p}")
