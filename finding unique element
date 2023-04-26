@@ -1,0 +1,15 @@
+l=[]
+n=int(input(print("enter the size of list")))
+for j in range(0,n):
+    a=int(input(print("enter the element")))
+    l.append(a)
+
+print(l)
+u=[]
+for i in range(0,len(l)):
+    if l.count(l[i])==1:
+        u.append(l[i])
+if u==[]:
+    print(f"no unique element {l} in the list")
+else:
+    print(f"non repition element is {u}")
